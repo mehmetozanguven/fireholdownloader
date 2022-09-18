@@ -2,12 +2,12 @@ package com.mehmetozanguven.fireholdownloader.defaultConfiguration;
 
 import com.mehmetozanguven.fireholdownloader.FireholLevelSetInfo;
 
-public class DefaultFireholIPSetInfoInfo implements FireholLevelSetInfo {
+public class DefaultFireholLevelSetInfo implements FireholLevelSetInfo {
     private String url;
     private boolean isLazyLoad;
     private String fileName;
 
-    public DefaultFireholIPSetInfoInfo() {
+    public DefaultFireholLevelSetInfo() {
     }
 
     public void setUrl(String url) {

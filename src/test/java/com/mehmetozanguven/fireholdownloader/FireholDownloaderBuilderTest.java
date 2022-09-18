@@ -1,7 +1,7 @@
 package com.mehmetozanguven.fireholdownloader;
 
 import com.mehmetozanguven.fireholdownloader.defaultConfiguration.DefaultFireholHttpBuilder;
-import com.mehmetozanguven.fireholdownloader.defaultConfiguration.DefaultFireholIPSetInfoInfo;
+import com.mehmetozanguven.fireholdownloader.defaultConfiguration.DefaultFireholLevelSetInfo;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
@@ -74,7 +74,7 @@ class FireholDownloaderBuilderTest {
 
             @Override
             public FireholLevelSetInfo getLevel4SetInfo() {
-                DefaultFireholIPSetInfoInfo level = new DefaultFireholIPSetInfoInfo();
+                DefaultFireholLevelSetInfo level = new DefaultFireholLevelSetInfo();
                 level.setUrl("https://raw.githubusercontent.com/ktsaou/blocklist-ipsets/master/firehol_level4.netset");
                 level.setLazyLoad(false);
                 level.setFileName("firehol_level4.fll");

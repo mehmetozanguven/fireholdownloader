@@ -1,6 +1,6 @@
 package com.mehmetozanguven.fireholdownloader;
 
-import com.mehmetozanguven.fireholdownloader.defaultConfiguration.DefaultFireholIPSetInfoInfo;
+import com.mehmetozanguven.fireholdownloader.defaultConfiguration.DefaultFireholLevelSetInfo;
 
 import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
@@ -35,7 +35,7 @@ public class TestUtils {
 
             @Override
             public FireholLevelSetInfo getLevel3SetInfo() {
-                DefaultFireholIPSetInfoInfo level = new DefaultFireholIPSetInfoInfo();
+                DefaultFireholLevelSetInfo level = new DefaultFireholLevelSetInfo();
                 level.setUrl("https://raw.githubusercontent.com/ktsaou/blocklist-ipsets/master/firehol_level3.netset");
                 level.setLazyLoad(false);
                 level.setFileName("");
@@ -44,7 +44,7 @@ public class TestUtils {
 
             @Override
             public FireholLevelSetInfo getLevel4SetInfo() {
-                DefaultFireholIPSetInfoInfo level = new DefaultFireholIPSetInfoInfo();
+                DefaultFireholLevelSetInfo level = new DefaultFireholLevelSetInfo();
                 level.setUrl("");
                 level.setLazyLoad(false);
                 level.setFileName("firehol_level4.fll");
