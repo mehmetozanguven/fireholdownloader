@@ -67,7 +67,7 @@ public class DefaultFireholFileWriterAndReader implements FireholFileWriterAndRe
 
         try (FileInputStream readData = new FileInputStream(filePath.toString())) {
             ObjectInputStream readStream = new ObjectInputStream(readData);
-            return (ArrayList) (ArrayList<FireholIpData>) readStream.readObject();
+            return (List<FireholIpData>) readStream.readObject();
         }
     }
 
