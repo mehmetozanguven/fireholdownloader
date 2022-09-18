@@ -35,7 +35,7 @@ class FireholDownloaderBuilderTest {
     public void builder_ShouldMatchWithLevelSet_WhenItIsCustomized() throws Exception {
         FireholDownloader fireholDownloader = new FireholDownloader
                 .Builder()
-                .fireholIpSetUrlAddress(TestUtils.emptyLevelSet())
+                .fireholAvailableLevelSets(TestUtils.emptyLevelSet())
                 .build();
         Assertions.assertTrue(fireholDownloader.getAvailableFireholSets().isEmpty());
     }
@@ -89,7 +89,7 @@ class FireholDownloaderBuilderTest {
                 .alwaysLoadFromInternet(randomBoolean)
                 .fileRetentionTime(fileRetentionTime)
                 .fireholDirectory(customizedDirectory)
-                .fireholIpSetUrlAddress(customizedIpSetUrls)
+                .fireholAvailableLevelSets(customizedIpSetUrls)
                 .httpClient(TestUtils.customizedRequestTimeout(customizedTimeout))
                 .build();
 

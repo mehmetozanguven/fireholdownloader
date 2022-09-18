@@ -182,7 +182,7 @@ public class FireholDownloader {
             this.fireholIpSearcher = new DefaultFireholIpSearcher(ipUtility);
         }
 
-        public Builder fireholIpSetUrlAddress(FireholAvailableLevelSets fireholAvailableLevelSets) {
+        public Builder fireholAvailableLevelSets(FireholAvailableLevelSets fireholAvailableLevelSets) {
             this.fireholAvailableLevelSets = fireholAvailableLevelSets;
             return this;
         }
