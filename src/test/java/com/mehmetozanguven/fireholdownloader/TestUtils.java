@@ -2,7 +2,24 @@ package com.mehmetozanguven.fireholdownloader;
 
 import com.mehmetozanguven.fireholdownloader.defaultConfiguration.DefaultFireholIPSetInfoInfo;
 
+import java.net.http.HttpClient;
+import java.net.http.HttpRequest;
+import java.time.Duration;
+
 public class TestUtils {
+    public static FireholHttpBuilder customizedRequestTimeout(Duration timeout) {
+        return new FireholHttpBuilder() {
+            @Override
+            public HttpClient.Builder getHttpClientBuilder() {
+                return HttpClient.newBuilder();
+            }
+
+            @Override
+            public HttpRequest.Builder getHttpRequestBuilder() {
+                return HttpRequest.newBuilder().timeout(timeout).GET();
+            }
+        };
+    }
 
     public static FireholAvailableLevelSets zeroIPSet() {
         return new FireholAvailableLevelSets() {
