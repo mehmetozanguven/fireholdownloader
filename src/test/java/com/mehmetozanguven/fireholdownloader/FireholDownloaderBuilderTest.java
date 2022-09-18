@@ -35,7 +35,7 @@ class FireholDownloaderBuilderTest {
     public void builder_ShouldMatchWithLevelSet_WhenItIsCustomized() throws Exception {
         FireholDownloader fireholDownloader = new FireholDownloader
                 .Builder()
-                .fireholIpSetUrlAddress(TestUtils.zeroIPSet())
+                .fireholIpSetUrlAddress(TestUtils.emptyLevelSet())
                 .build();
         Assertions.assertTrue(fireholDownloader.getAvailableFireholSets().isEmpty());
     }

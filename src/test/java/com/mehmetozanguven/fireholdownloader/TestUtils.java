@@ -21,7 +21,7 @@ public class TestUtils {
         };
     }
 
-    public static FireholAvailableLevelSets zeroIPSet() {
+    public static FireholAvailableLevelSets emptyLevelSet() {
         return new FireholAvailableLevelSets() {
             @Override
             public FireholLevelSetInfo getLevel1SetInfo() {
