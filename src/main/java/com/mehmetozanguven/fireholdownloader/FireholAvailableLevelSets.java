@@ -1,5 +1,12 @@
 package com.mehmetozanguven.fireholdownloader;
 
+import com.mehmetozanguven.fireholdownloader.defaultConfiguration.DefaultFireholLevelSets;
+
+/**
+ * Interface to set level set for the firehol
+ * Return null if you don't want to use & download specific level set
+ * @see DefaultFireholLevelSets for the default implementation
+ */
 public interface FireholAvailableLevelSets {
 
     FireholLevelSetInfo getLevel1SetInfo();

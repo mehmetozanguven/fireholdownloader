@@ -4,7 +4,6 @@ import com.mehmetozanguven.fireholdownloader.FireholIpSearcher;
 import com.mehmetozanguven.fireholdownloader.IpUtility;
 import com.mehmetozanguven.fireholdownloader.data.FireholIpData;
 import com.mehmetozanguven.fireholdownloader.data.FireholSubnetUtils;
-import org.apache.commons.net.util.SubnetUtils;
 
 import java.util.List;
 
