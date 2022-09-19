@@ -5,6 +5,9 @@
   <artifactId>fireholdownloader</artifactId>
   <packaging>jar</packaging>
   <version>1.0.0</version>
+  <name>fireholdownloader</name>
+  <description>Utility library to download and check firehol ip list</description>
+  <url>https://github.com/mehmetozanguven/fireholdownloader</url>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
@@ -15,8 +18,6 @@
     <junit.jupiter.engine.version>5.9.0</junit.jupiter.engine.version>
     <mockito.version>4.8.0</mockito.version>
   </properties>
-  <name>fireholdownloader</name>
-  <url>http://maven.apache.org</url>
   <dependencies>
     <dependency>
       <groupId>com.google.guava</groupId>
