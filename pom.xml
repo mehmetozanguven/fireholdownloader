@@ -5,7 +5,7 @@
   <artifactId>fireholdownloader</artifactId>
   <packaging>jar</packaging>
   <version>1.0.0</version>
-  <name>fireholdownloader</name>
+  <name>${project.groupId}:${project.artifactId}</name>
   <description>Utility library to download and check firehol ip list</description>
   <url>https://github.com/mehmetozanguven/fireholdownloader</url>
 
@@ -23,6 +23,12 @@
       <email>mehmetozanguven@gmail.com</email>
     </developer>
   </developers>
+
+  <scm>
+    <connection>scm:git:https://github.com/mehmetozanguven/fireholdownloader</connection>
+    <developerConnection>scm:git:git@github.com:mehmetozanguven/fireholdownloader.git</developerConnection>
+    <url>https://github.com/mehmetozanguven/fireholdownloader</url>
+  </scm>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
