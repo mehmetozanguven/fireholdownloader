@@ -8,6 +8,14 @@
   <name>fireholdownloader</name>
   <description>Utility library to download and check firehol ip list</description>
   <url>https://github.com/mehmetozanguven/fireholdownloader</url>
+
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>http://www.opensource.org/licenses/mit-license.php</url>
+    </license>
+  </licenses>
+
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
