@@ -109,7 +109,7 @@ public class FireholDownloader {
         }
     }
 
-    public FireholIpData searchFireholIp(String ipAddressOrCidrNotation) throws Exception {
+    public FireholIpData searchMaliciousIp(String ipAddressOrCidrNotation) throws Exception {
         for (FireholLevelSet each : availableFireholSets) {
             FireholIpData response;
             if (each.getFireholLevelSetInfo().isLazyLoad()) {

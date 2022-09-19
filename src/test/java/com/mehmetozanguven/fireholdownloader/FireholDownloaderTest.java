@@ -10,7 +10,7 @@ class FireholDownloaderTest {
     void fireholDownloader_ShouldFindFireholIp_WithDefaultSetup() throws Exception {
         FireholDownloader fireholDownloader = new FireholDownloader.Builder().build();
         fireholDownloader.initializeDownloader();
-        FireholIpData fireholIpData = fireholDownloader.searchFireholIp(TestUtils.FIREHOL_BLOCKED_IP);
+        FireholIpData fireholIpData = fireholDownloader.searchMaliciousIp(TestUtils.FIREHOL_BLOCKED_IP);
         Assertions.assertNotNull(fireholIpData);
     }
 
@@ -21,7 +21,7 @@ class FireholDownloaderTest {
                 .fireholAvailableLevelSets(TestUtils.levelSetsWithoutLevel1(true))
                 .build();
         fireholDownloader.initializeDownloader();
-        FireholIpData fireholIpData = fireholDownloader.searchFireholIp(TestUtils.FIREHOL_BLOCKED_IP);
+        FireholIpData fireholIpData = fireholDownloader.searchMaliciousIp(TestUtils.FIREHOL_BLOCKED_IP);
         Assertions.assertNull(fireholIpData);
     }
 }
