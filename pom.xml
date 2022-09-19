@@ -16,6 +16,14 @@
     </license>
   </licenses>
 
+  <developers>
+    <developer>
+      <id>mehmetozanguven</id>
+      <name>Mehmet Ozan Güven</name>
+      <email>mehmetozanguven@gmail.com</email>
+    </developer>
+  </developers>
+
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
