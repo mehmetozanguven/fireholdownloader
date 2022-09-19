@@ -4,7 +4,7 @@ import com.mehmetozanguven.fireholdownloader.FireholAvailableLevelSets;
 import com.mehmetozanguven.fireholdownloader.FireholLevelSetInfo;
 
 
-public class DefaultFireholSets implements FireholAvailableLevelSets {
+public class DefaultFireholLevelSets implements FireholAvailableLevelSets {
 
     @Override
     public FireholLevelSetInfo getLevel1SetInfo() {

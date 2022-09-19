@@ -172,7 +172,7 @@ public class FireholDownloader {
         private FireholIpSearcher fireholIpSearcher;
 
         public Builder() {
-            this.fireholAvailableLevelSets = new DefaultFireholSets();
+            this.fireholAvailableLevelSets = new DefaultFireholLevelSets();
             this.fireholDirectory = new DefaultFireholDirectory();
             this.isAlwaysLoadFromInternet = false;
             this.fireholHttpBuilder = new DefaultFireholHttpBuilder();
