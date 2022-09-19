@@ -197,7 +197,7 @@ public class FireholDownloader {
             return this;
         }
 
-        public Builder httpClient(FireholHttpBuilder customHttpBuilder) {
+        public Builder httpBuilder(FireholHttpBuilder customHttpBuilder) {
             this.fireholHttpBuilder = customHttpBuilder;
             return this;
         }

@@ -90,7 +90,7 @@ class FireholDownloaderBuilderTest {
                 .fileRetentionTime(fileRetentionTime)
                 .fireholDirectory(customizedDirectory)
                 .fireholAvailableLevelSets(customizedIpSetUrls)
-                .httpClient(TestUtils.customizedRequestTimeout(customizedTimeout))
+                .httpBuilder(TestUtils.customizedRequestTimeout(customizedTimeout))
                 .build();
 
         Assertions.assertEquals(randomBoolean, fireholDownloader.isAlwaysLoadFromInternet());
