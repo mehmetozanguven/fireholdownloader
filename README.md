@@ -125,7 +125,7 @@ class FireholDownloaderTest {
 }
 ```
 
-All ip sets are available in the `https://raw.githubusercontent.com/ktsaou/blocklist-ipsets/master/...`, if you are not available to send any request **raw.githubusercontent**, then you can override the url address:
+All ip sets are available in the `https://raw.githubusercontent.com/ktsaou/blocklist-ipsets/master/...`, if you are not permitted to send any request **raw.githubusercontent**, then you can override the url address:
 
 ```java
 public class CustomizedFireholLevelSets implements FireholAvailableLevelSets {
@@ -214,6 +214,44 @@ class FireholDownloaderTest {
     public static void main(String[] args) {
         FireholDownloader fireholDownloader = new FireholDownloader.Builder()
                 .fireholFileWriterAndReader(new CustomizedFireholFileWriterAndReader())
+                .build();
+    }
+}
+```
+
+### HttpRequest.Builder & HttpClient.Builder
+
+You can also provide your implementation using the interface `FireholHttpBuilder`
+
+> Default implementation is the `DefaultFireholHttpBuilder`
+
+```java
+public class CustomizedFireholHttpBuilder implements FireholHttpBuilder {
+    public static final Duration TIMEOUT = // custom timeout;
+
+    @Override
+    public HttpClient.Builder getHttpClientBuilder() {
+        return HttpClient.newBuilder();
+    }
+
+    @Override
+    public HttpRequest.Builder getHttpRequestBuilder() {
+        return HttpRequest.newBuilder()
+                .version(HttpClient.Version.HTTP_2)
+                .timeout(TIMEOUT)
+                .GET()
+                ;
+    }
+}
+```
+
+Then put your implementation into the Builder:
+
+```java
+class FireholDownloaderTest {
+    public static void main(String[] args) {
+        FireholDownloader fireholDownloader = new FireholDownloader.Builder()
+                .httpBuilder(new CustomizedFireholHttpBuilder())
                 .build();
     }
 }
