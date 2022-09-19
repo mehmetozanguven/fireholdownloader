@@ -1,8 +1,9 @@
-package io.github.mehmetozanguven.fireholdownloader;
+package io.github.mehmetozanguven.fireholDownloader;
 
-import io.github.mehmetozanguven.fireholdownloader.data.FireholLevelSet;
-import io.github.mehmetozanguven.fireholdownloader.data.FireholIpData;
-import io.github.mehmetozanguven.fireholdownloader.defaultConfiguration.*;
+import io.github.mehmetozanguven.*;
+import io.github.mehmetozanguven.data.FireholLevelSet;
+import io.github.mehmetozanguven.data.FireholIpData;
+import io.github.mehmetozanguven.defaultConfiguration.*;
 
 import java.net.URI;
 import java.net.http.HttpRequest;

@@ -1,6 +1,6 @@
-package io.github.mehmetozanguven.fireholdownloader;
+package io.github.mehmetozanguven;
 
-import io.github.mehmetozanguven.fireholdownloader.defaultConfiguration.DefaultFireholLevelSets;
+import io.github.mehmetozanguven.defaultConfiguration.DefaultFireholLevelSets;
 
 /**
  * Interface to set level set for the firehol

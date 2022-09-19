@@ -1,6 +1,6 @@
-package io.github.mehmetozanguven.fireholdownloader;
+package io.github.mehmetozanguven;
 
-import io.github.mehmetozanguven.fireholdownloader.defaultConfiguration.DefaultFireholLevelSetInfo;
+import io.github.mehmetozanguven.defaultConfiguration.DefaultFireholLevelSetInfo;
 
 /**
  * @see DefaultFireholLevelSetInfo for the default implementation

@@ -1,8 +1,8 @@
-package io.github.mehmetozanguven.fireholdownloader.defaultConfiguration;
+package io.github.mehmetozanguven.defaultConfiguration;
 
-import io.github.mehmetozanguven.fireholdownloader.FireholResponsePreparer;
-import io.github.mehmetozanguven.fireholdownloader.IpUtility;
-import io.github.mehmetozanguven.fireholdownloader.data.FireholIpData;
+import io.github.mehmetozanguven.IpUtility;
+import io.github.mehmetozanguven.FireholResponsePreparer;
+import io.github.mehmetozanguven.data.FireholIpData;
 
 import java.util.ArrayList;
 import java.util.List;

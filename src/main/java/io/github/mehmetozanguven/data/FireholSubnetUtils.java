@@ -1,4 +1,4 @@
-package io.github.mehmetozanguven.fireholdownloader.data;
+package io.github.mehmetozanguven.data;
 
 public class FireholSubnetUtils {
     private String ipAddress;

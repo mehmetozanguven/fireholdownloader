@@ -1,6 +1,7 @@
-package io.github.mehmetozanguven.fireholdownloader;
+package io.github.mehmetozanguven;
 
-import io.github.mehmetozanguven.fireholdownloader.data.FireholIpData;
+import io.github.mehmetozanguven.data.FireholIpData;
+import io.github.mehmetozanguven.fireholDownloader.FireholDownloader;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 

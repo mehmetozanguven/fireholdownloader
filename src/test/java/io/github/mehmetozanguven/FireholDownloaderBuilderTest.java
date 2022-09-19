@@ -1,7 +1,8 @@
-package io.github.mehmetozanguven.fireholdownloader;
+package io.github.mehmetozanguven;
 
-import io.github.mehmetozanguven.fireholdownloader.defaultConfiguration.DefaultFireholHttpBuilder;
-import io.github.mehmetozanguven.fireholdownloader.defaultConfiguration.DefaultFireholLevelSetInfo;
+import io.github.mehmetozanguven.defaultConfiguration.DefaultFireholLevelSetInfo;
+import io.github.mehmetozanguven.defaultConfiguration.DefaultFireholHttpBuilder;
+import io.github.mehmetozanguven.fireholDownloader.FireholDownloader;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 

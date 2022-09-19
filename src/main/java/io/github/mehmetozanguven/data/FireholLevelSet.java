@@ -1,6 +1,6 @@
-package io.github.mehmetozanguven.fireholdownloader.data;
+package io.github.mehmetozanguven.data;
 
-import io.github.mehmetozanguven.fireholdownloader.FireholLevelSetInfo;
+import io.github.mehmetozanguven.FireholLevelSetInfo;
 
 import java.util.ArrayList;
 import java.util.List;

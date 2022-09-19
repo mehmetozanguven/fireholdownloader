@@ -1,6 +1,6 @@
-package io.github.mehmetozanguven.fireholdownloader.defaultConfiguration;
+package io.github.mehmetozanguven.defaultConfiguration;
 
-import io.github.mehmetozanguven.fireholdownloader.FireholDirectory;
+import io.github.mehmetozanguven.FireholDirectory;
 
 public class DefaultFireholDirectory implements FireholDirectory {
 

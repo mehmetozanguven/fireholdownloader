@@ -1,6 +1,6 @@
-package io.github.mehmetozanguven.fireholdownloader;
+package io.github.mehmetozanguven;
 
-import io.github.mehmetozanguven.fireholdownloader.defaultConfiguration.DefaultFireholHttpBuilder;
+import io.github.mehmetozanguven.defaultConfiguration.DefaultFireholHttpBuilder;
 
 import java.net.http.HttpClient;
 import java.net.http.HttpRequest;

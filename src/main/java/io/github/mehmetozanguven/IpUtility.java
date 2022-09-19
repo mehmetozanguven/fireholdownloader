@@ -1,7 +1,7 @@
-package io.github.mehmetozanguven.fireholdownloader;
+package io.github.mehmetozanguven;
 
-import io.github.mehmetozanguven.fireholdownloader.data.FireholSubnetUtils;
-import io.github.mehmetozanguven.fireholdownloader.defaultConfiguration.DefaultIpUtilityConfiguration;
+import io.github.mehmetozanguven.data.FireholSubnetUtils;
+import io.github.mehmetozanguven.defaultConfiguration.DefaultIpUtilityConfiguration;
 
 /**
  * @see DefaultIpUtilityConfiguration for the default implementation

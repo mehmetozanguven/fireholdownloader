@@ -1,6 +1,6 @@
-package io.github.mehmetozanguven.fireholdownloader.data;
+package io.github.mehmetozanguven.data;
 
-import io.github.mehmetozanguven.fireholdownloader.IpUtility;
+import io.github.mehmetozanguven.IpUtility;
 
 import java.io.Serializable;
 
