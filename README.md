@@ -8,7 +8,15 @@ fireholdownloader is a utility (easily customizable) Java library to download, l
 
 ## How to use fireholdownloader in your project
 
-After imported the project via Maven, Gradle or using jar file:
+After imported the project via Maven (Gradle or using jar file):
+
+```xml
+<dependency>
+  <groupId>io.github.mehmetozanguven</groupId>
+  <artifactId>fireholdownloader</artifactId>
+  <version>1.0.0</version>
+</dependency>
+```
 
 - Create `FireholDownloader` object with the builder:
 
