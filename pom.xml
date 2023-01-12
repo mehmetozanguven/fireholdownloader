@@ -43,9 +43,9 @@
     <maven.compiler.source>17</maven.compiler.source>
     <maven.compiler.target>17</maven.compiler.target>
     <google.guava.version>31.1-jre</google.guava.version>
-    <commons.net.version>3.8.0</commons.net.version>
-    <junit.jupiter.engine.version>5.9.0</junit.jupiter.engine.version>
-    <mockito.version>4.8.0</mockito.version>
+    <commons.net.version>3.9.0</commons.net.version>
+    <junit.jupiter.engine.version>5.9.2</junit.jupiter.engine.version>
+    <mockito.version>4.11.0</mockito.version>
   </properties>
   <dependencies>
     <dependency>
