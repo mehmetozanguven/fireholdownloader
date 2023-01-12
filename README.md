@@ -6,6 +6,13 @@ fireholdownloader is a utility (easily customizable) Java library to download, l
 > 
 > For more information [https://iplists.firehol.org/#about](https://iplists.firehol.org/#about)
 
+## Release notes:
+
+- **v2.0.0**:
+  - Update to Java 17
+  - Update version for commons-net 3.9.0 (v3.8.0 includes vulnerabilities)
+  - Update versions for jupiter and mockito
+
 ## How to use fireholdownloader in your project
 
 After imported the project via Maven (Gradle or using jar file):
@@ -14,7 +21,7 @@ After imported the project via Maven (Gradle or using jar file):
 <dependency>
   <groupId>io.github.mehmetozanguven</groupId>
   <artifactId>fireholdownloader</artifactId>
-  <version>1.0.0</version>
+  <version>2.0.0</version>
 </dependency>
 ```
 
