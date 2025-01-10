@@ -4,7 +4,7 @@
   <groupId>io.github.mehmetozanguven</groupId>
   <artifactId>fireholdownloader</artifactId>
   <packaging>jar</packaging>
-  <version>2.0.0</version>
+  <version>2.1.0</version>
   <name>${project.groupId}:${project.artifactId}</name>
   <description>Utility library to download and check firehol ip list</description>
   <url>https://github.com/mehmetozanguven/fireholdownloader</url>
@@ -42,10 +42,10 @@
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     <maven.compiler.source>17</maven.compiler.source>
     <maven.compiler.target>17</maven.compiler.target>
-    <google.guava.version>31.1-jre</google.guava.version>
-    <commons.net.version>3.9.0</commons.net.version>
-    <junit.jupiter.engine.version>5.9.2</junit.jupiter.engine.version>
-    <mockito.version>4.11.0</mockito.version>
+    <google.guava.version>33.4.0-jre</google.guava.version>
+    <commons.net.version>3.11.1</commons.net.version>
+    <junit.jupiter.engine.version>5.11.4</junit.jupiter.engine.version>
+    <mockito.version>5.15.2</mockito.version>
   </properties>
   <dependencies>
     <dependency>

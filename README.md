@@ -8,6 +8,13 @@ fireholdownloader is a utility (easily customizable) Java library to download, l
 
 ## Release notes:
 
+- **v2.1.0**:
+  - Update library dependencies to the latest versions
+    - Google-Guava v33.4.0-jre
+    - Commons-net v3.11.1
+    - Junit-Jupiter v5.11.4
+    - Mockito v5.15.2
+  
 - **v2.0.0**:
   - Update to Java 17
   - Update version for commons-net 3.9.0 (v3.8.0 includes vulnerabilities)
