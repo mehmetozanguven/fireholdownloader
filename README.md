@@ -30,7 +30,7 @@ After imported the project via Maven (Gradle or using jar file):
 <dependency>
   <groupId>io.github.mehmetozanguven</groupId>
   <artifactId>fireholdownloader</artifactId>
-  <version>2.0.0</version> <!-- This is latest version you may fin on the maven-center -->
+  <version>2.0.0</version> <!-- This is latest version you may find on the maven-center -->
 </dependency>
 ```
 
