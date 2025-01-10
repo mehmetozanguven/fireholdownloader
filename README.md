@@ -8,8 +8,10 @@ fireholdownloader is a utility (easily customizable) Java library to download, l
 
 ## Release notes:
 
+> Note: There are so many manual steps to send jar file to the maven-central. Unfortunately, I am giving up to send new releases to the maven-center. You may build the project code by yourself. Thanks..
+
 - **v2.1.0**:
-  - Update library dependencies to the latest versions
+  - Update library dependencies to the latest versions:
     - Google-Guava v33.4.0-jre
     - Commons-net v3.11.1
     - Junit-Jupiter v5.11.4
@@ -28,7 +30,7 @@ After imported the project via Maven (Gradle or using jar file):
 <dependency>
   <groupId>io.github.mehmetozanguven</groupId>
   <artifactId>fireholdownloader</artifactId>
-  <version>2.0.0</version>
+  <version>2.0.0</version> <!-- This is latest version you may fin on the maven-center -->
 </dependency>
 ```
 
